@@ -1,0 +1,36 @@
+    
+    .Titulo
+    {
+        font-weight: bold;
+    }
+    .Encabezado
+    {
+
+        font-weight: 500;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        margin-top: 30px;
+        border-bottom: solid 3px #127398;
+    }
+    .Photo
+    {
+        border-radius: 100%;
+        width: 100%
+
+    }
+    .marginName
+    {
+        font-size: 40px;
+        margin-top: 18%;
+        color: #000000;
+    }
+    .barra
+    {
+        background: #3e6371;
+        height: 2em;
+    }
+    #FirstName
+    {
+        color: #3e6371;
+    }
+

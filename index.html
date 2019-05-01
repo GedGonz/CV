@@ -13,14 +13,13 @@
     <link rel="stylesheet" href="css/timeline.css">
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-     <script src="js/cv.js"></script>
+    <script src="js/cv.js"></script>
 </header>
 
 <body>
-    <div class="barra"></div>
-    <div class="contain">
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
+    <div class="barra shadow"></div>
+    <div class="container">
+        <div class="col-md-12">
             <div class="col-md-4">
                 <h3 class="Titulo">CURRICULUM VITAE</h4>
                     <h4 class="Encabezado">ACERCA DE MI</h4>
@@ -43,25 +42,19 @@
                         <div class="timeline-item" date-is='2019'>
                             <p><strong>INFORMÁTICA | SISTEMAS</strong></p>
                             <p>
-                                Master | Magister | Maestría Completa - Nicaragua / Universidad Nacional de Ingeniería
-                                Especialización:
-                                Informatica Empresarial
+                                Master | Magister | Maestría Completa - Nicaragua / Universidad Nacional de Ingeniería Especialización: Informatica Empresarial
                             </p>
                         </div>
                         <div class="timeline-item" date-is='2015'>
                             <p><strong>INFORMÁTICA | SISTEMAS</strong></p>
                             <p>
-                                Post-Grado Completo - Nicaragua / Universidad Nacional de Ingeniería
-                                Especialización:
-                                Desarrollo de Sistemas
+                                Post-Grado Completo - Nicaragua / Universidad Nacional de Ingeniería Especialización: Desarrollo de Sistemas
                             </p>
                         </div>
                         <div class="timeline-item" date-is='2015'>
                             <p><strong>INFORMÁTICA | SISTEMAS</strong></p>
                             <p>
-                                Universidad Completa | Graduado - Nicaragua / Universidad Nacional de Ingeniería
-                                Especialización:
-                                Programacion
+                                Universidad Completa | Graduado - Nicaragua / Universidad Nacional de Ingeniería Especialización: Programacion
                             </p>
                         </div>
                     </div>
@@ -84,26 +77,37 @@
             </div>
             <div class="col-md-8">
                 <div class="row">
-                        <div class="col-md-5"><img class="Photo" src="https://avatars1.githubusercontent.com/u/17076747?s=400&u=4f9665db2d4beb89611639a76c326c91a8f3ef96&v=4" alt="" srcset=""></div>
-                        <div class="col-md-7"><h1 class="marginName"><span id="FirstName">GERALD DE JESÚS</span><br>GONZÁLEZ ZELEDÓN</h1></div>
+                    <div class="col-md-5 ">
+                        <div class="backgroundimg">
+                            <img class="Photo" src="https://avatars1.githubusercontent.com/u/17076747?s=400&u=4f9665db2d4beb89611639a76c326c91a8f3ef96&v=4" alt="" srcset="">
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-7">
+                        <h1 class="marginName"><span id="FirstName">GERALD DE JESÚS</span><br>GONZÁLEZ ZELEDÓN</h1>
+                    </div>
                 </div>
-                
-                
+
+
                 <h4 class="Encabezado">EXPERIENCIA LABORAL</h4>
                 <h4 class="Encabezado">IDIOMAS</h4>
                 <h4 class="Encabezado">HABILIDADES TÉCNICAS</h4>
             </div>
         </div>
-        <div class="col-md-1"></div>
+    </div>
+    <div class="footer shadow">
+        <p class="text-center paddin2em">Copyright © <span id="anio"></span> by GERALD GONZÁLEZ </p>
     </div>
 </body>
-<footer>
-    
-</footer>
+
+
 </html>
 
 <script>
-$(document).ready(function () {
-    calularEdad();
-});
+    $(document).ready(function() {
+        var anio = new Date().getFullYear();
+        $("#anio").text(anio);
+        calularEdad();
+    });
 </script>

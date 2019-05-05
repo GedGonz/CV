@@ -3,6 +3,13 @@ body {
     font-weight: 100;
 }
 
+.parrafo {
+    margin-bottom: 5px;
+    color: #424242;
+    font-size: 13px;
+    font-weight: 500;
+}
+
 .Titulo {
     font-weight: 100;
 }

@@ -30,8 +30,8 @@ body {
 
 .marginName {
     font-weight: 100;
-    font-size: 40px;
-    margin-top: 18%;
+    font-size: 38px;
+    margin-top: 15%;
     color: #000000;
 }
 
@@ -65,7 +65,11 @@ body {
 }
 
 .backgroundimg {
-    background: #f4f4f557;
+    background: #ecececba;
     border-radius: 200%;
-    width: 80%;
+    width: 90%;
+}
+
+.marginlet {
+    margin-left: 10px;
 }

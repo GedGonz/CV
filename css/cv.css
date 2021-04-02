@@ -19,7 +19,7 @@ body {
     padding-bottom: 15px;
     margin-bottom: 15px;
     margin-top: 30px;
-    border-bottom: solid 3px #127398;
+    border-bottom: solid 3px #075482;
 }
 
 .Photo {
@@ -36,7 +36,7 @@ body {
 }
 
 .barra {
-    background: #273B47;
+    background: #075482;
     height: 2em;
 }
 
